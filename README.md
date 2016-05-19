@@ -58,17 +58,8 @@ template.render({},'en-ca', function(err, email){
 
 ## Notes
 
-Code exported from We.js (we-core) to be compatible with any framework
+Code exported from [We.js](https://wejs.org) (we-core) to be compatible with any framework
 
 ## License
 
 Apache-2.0 © [albertosouza](http://albertosouza.net/)
-
-[npm-image]: https://badge.fury.io/js/email-templates-i18n.svg
-[npm-url]: https://npmjs.org/package/email-templates-i18n
-[travis-image]: https://travis-ci.org/albertosouza/email-templates-i18n.svg?branch=master
-[travis-url]: https://travis-ci.org/albertosouza/email-templates-i18n
-[daviddm-image]: https://david-dm.org/albertosouza/email-templates-i18n.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/albertosouza/email-templates-i18n
-[coveralls-image]: https://coveralls.io/repos/albertosouza/email-templates-i18n/badge.svg
-[coveralls-url]: https://coveralls.io/r/albertosouza/email-templates-i18n
