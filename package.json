@@ -1,7 +1,6 @@
 {
   "name": "email-templates-i18n",
   "version": "1.0.0",
-  "description": "email-templates with suport to i18n, cache and theme overrides",
   "homepage": "https://github.com/albertosouza/email-templates-i18n",
   "author": {
     "name": "albertosouza",
@@ -12,21 +11,12 @@
     "lib"
   ],
   "main": "lib/index.js",
-  "keywords": [
-    "email",
-    "template",
-    "i18n"
-  ],
   "devDependencies": {
     "handlebars": "^4.0.5",
     "istanbul": "^0.4.2",
     "mocha": "^2.4.5"
   },
   "repository": "albertosouza/email-templates-i18n",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha test/bootstrap.js test/**/*.test.js -b ",
-    "coverage": "./node_modules/.bin/istanbul cover node_modules/.bin/_mocha -- -u exports -R spec test/bootstrap.js test/**/*.test.js"
-  },
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^2.0.0-rc.5",
